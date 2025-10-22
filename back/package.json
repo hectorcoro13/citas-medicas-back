@@ -1,0 +1,42 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts",
+    "build": "tsc",
+    "start": "nodemon",
+    "build:watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/create-config": "^1.4.0",
+    "@eslint/js": "^9.15.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.9.3",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  }
+}
